@@ -80,42 +80,42 @@ $user_browser = getBrowser($user_agent);
 
 $message = "
 ## **General Details**
-- **IP Address:** $user_ip
-- **Hostname:** $hostname
-- **City:** $city
-- **Region:** $region
-- **Country:** $country
-- **Location (lat, long):** $loc
-- **Organization:** $org
-- **Postal Code:** $postal
-- **Timezone:** $timezone
+- **IP Address:** `$user_ip`
+- **Hostname:** `$hostname`
+- **City:** `$city`
+- **Region:** `$region`
+- **Country:** `$country`
+- **Location (lat, long):** `$loc`
+- **Organization:** `$org`
+- **Postal Code:** `$postal`
+- **Timezone:** `$timezone`
 
 ## **ASN and ISP Details**
-- **ASN:** $asn
-- **ASN Name:** $asn_name
-- **ASN Domain:** $asn_domain
-- **Route:** $route
-- **Company Name:** $company_name
-- **Company Domain:** $company_domain
+- **ASN:** `$asn`
+- **ASN Name:** `$asn_name`
+- **ASN Domain:** `$asn_domain`
+- **Route:** `$route`
+- **Company Name:** `$company_name`
+- **Company Domain:** `$company_domain`
 
 ## **Privacy Indicators**
-- **Using VPN:** $privacy_vpn
-- **Using Proxy:** $privacy_proxy
-- **Using Tor:** $privacy_tor
+- **Using VPN:** `$privacy_vpn`
+- **Using Proxy:** `$privacy_proxy`
+- **Using Tor:** `$privacy_tor`
 
 ## **Abuse Contact**
-- **Abuse Address:** $abuse_address
-- **Abuse Country:** $abuse_country
-- **Abuse Email:** $abuse_email
-- **Abuse Name:** $abuse_name
-- **Abuse Network:** $abuse_network
+- **Abuse Address:** `$abuse_address`
+- **Abuse Country:** `$abuse_country`
+- **Abuse Email:** `$abuse_email`
+- **Abuse Name:** `$abuse_name`
+- **Abuse Network:** `$abuse_network`
 
 ## **System Details**
-- **Operating System:** $user_os
-- **Browser:** $user_browser
-- **Language:** $language
-- **User-Agent:** $user_agent
-- **Timestamp:** $timestamp
+- **Operating System:** `$user_os`
+- **Browser:** `$user_browser`
+- **Language:** `$language`
+- **User-Agent:** `$user_agent`
+- **Timestamp:** `$timestamp`
 ";
 
 $data = ["content" => $message];
